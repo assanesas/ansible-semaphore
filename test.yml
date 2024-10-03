@@ -1,7 +1,7 @@
 --- 
 - name: Run command and print to terminal windows
   host:ios
-  gather_fact: false 
+  gather_fact: no
 
   tasks
     - name: Run show command
