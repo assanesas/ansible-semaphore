@@ -1,0 +1,11 @@
+--- 
+- name: Run command and print to terminal windows
+  host:ios
+  gather_fact: false 
+
+  tasks
+    - name: Run show command
+      ansible.netcommon.cli_command:
+        command: show interface status
+      register: command_output
+  
