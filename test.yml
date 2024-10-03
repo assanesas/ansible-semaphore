@@ -1,6 +1,6 @@
 --- 
 - name: Run command and print to terminal windows
-  host:ios
+  host: test
   gather_fact: no
 
   tasks
